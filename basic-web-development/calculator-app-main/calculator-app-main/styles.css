@@ -1,0 +1,105 @@
+.theme-1 {
+  --color-background: #3b4664;
+  --color-displayer: #181f32;
+  --font-color: white;
+  --color-slider: red;
+  --color-slider-background: #252d44;
+  --keyboard-background: #252d44;
+  --button-color-number: #eae3db;
+  --shadow-number: #b6a49a;
+  --button-color-del: #647299;
+  --shadow-del: #414e70;
+  --button-color-equal: #d13f30;
+  --shadow-equal: #8f2316;
+}
+
+.theme-2{
+  --color-background: #e6e6e6;
+  --color-displayer: #eeeeee;
+  --font-color: #3b3b2f;
+  --color-slider: #c45504;
+  --color-slider-background: #d3cdcd;
+  --keyboard-background: #d3cdcd;
+  --button-color-number: #e5e4e0;
+  --shadow-number: #a89f90;
+  --button-color-del: #388187;
+  --shadow-del: #1a5d66;
+  --button-color-equal: #c85401;
+  --shadow-equal: #873a02;
+}
+
+.theme-3{
+    --color-background: #17062a;
+    --color-displayer: #1e0836;
+    --font-color: #ffe33d;
+    --color-slider: #00ddcd;
+    --color-slider-background: #1e0837;
+    --keyboard-background: #1e0836;
+    --button-color-number: #331b4d;
+    --shadow-number: #871c9e;
+    --button-color-del: #530978;
+    --shadow-del: #be14f3;
+    --button-color-equal: #00decf;
+    --shadow-equal: #6ef7ef;
+    --font-color-button: #ffe33d;
+  }
+
+
+body {background-color: var(--color-background);}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+.toggle_radio label {
+  color: var(--font-color);
+}
+.main {text-align: center; align-items: center;}
+.header {margin-top: 20px; margin-left: 35%; margin-right: 35%; padding-bottom: 20px; position: relative;}
+.header {font-family: Arial, Helvetica, sans-serif; color: var(--font-color); font-size: large;}
+.displayer{background-color: var(--color-displayer); position: relative;}
+.displayer {margin-left: 35%; margin-right: 35%; padding-bottom: 20px;}
+.displayer{border-radius: 10px; height: 100px; text-align: right; color: var(--font-color);}
+.keyboard {
+  margin-top: 20px;
+  background-color: var(--keyboard-background);
+  margin-left: 35%;
+  margin-right: 35%;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  height: auto;
+
+
+}
+
+.column{
+  position: relative;
+  top: 20px;
+  margin-left: 40px;
+  padding-bottom: 20px;
+}
+
+.column button {
+  width: 65px;
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 15px;
+  background-color: var(--button-color-number);
+  box-shadow: 0px 3px 0px 0px var(--shadow-number);
+  color: var(--font-color-button);
+}
+
+.column-down{
+  position: relative;
+  top: 20px;
+  margin-left: 40px;
+  padding-bottom: 20px;
+}
+
+.column-down button {
+  width: 150px;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 10px;
+  color: var(--font-color-button);
+}

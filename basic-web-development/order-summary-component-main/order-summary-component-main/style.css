@@ -1,0 +1,44 @@
+
+main.component {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: repeat-x;
+    width: 1440px;
+    height: 730px;
+    text-align: center;
+    margin-left: 35px;
+    font-size: 16px;
+}
+
+.displayer {
+    margin-top: 70px;
+    display: inline-table;
+    border-radius: 10px;
+    background-color: white;
+    width: min-content;
+}
+
+.plan {
+    display: inline-flex;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 5px;
+}
+
+.proceed {
+    background-color: hsl(245, 75%, 52%);
+    border-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 40px;
+    width: 250px;
+}
+
+.cancel{
+    background-color: white;
+    border-color: white;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 250px;
+}
